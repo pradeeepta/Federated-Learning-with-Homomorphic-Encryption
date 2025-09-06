@@ -1,0 +1,49 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files
+*.h5
+*.pt
+*.pkl
+*.npy
+*.tenseal
+
+# Images and media files
+*.jpeg
+*.jpg
+*.png
+*.webp
+*.avif
+
+# Generated files
+*.json
+*.html
+
+# Exclude specific folders
+/static/uploads/
+/dataset/
+/hospital1/
+/hospital2/
+/hospital3/
+/1_client_tt/
+/2_client_tt/
+
+# Keep specific code-related JSON files
+!contract_abi.json
+!model_logger_abi.json
+!ModelLoggerABI.json
